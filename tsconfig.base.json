@@ -1,0 +1,54 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@accountable/freelancer-manager/feat-auth": [
+        "libs/freelancer-manager/feat-auth/src/index.ts"
+      ],
+      "@accountable/freelancer-manager/feat-invoicing": [
+        "libs/freelancer-manager/feat-invoicing/src/index.ts"
+      ],
+      "@accountable/freelancer-manager/feat-reporting": [
+        "libs/freelancer-manager/feat-reporting/src/index.ts"
+      ],
+      "@accountable/freelancer-manager/feat-shell": [
+        "libs/freelancer-manager/feat-shell/src/index.ts"
+      ],
+      "@accountable/frontend/data-access-auth": [
+        "libs/frontend/data-access-auth/src/index.ts"
+      ],
+      "@accountable/frontend/data-access-invoicing": [
+        "libs/frontend/data-access-invoicing/src/index.ts"
+      ],
+      "@accountable/frontend/data-access-reporting": [
+        "libs/frontend/data-access-reporting/src/index.ts"
+      ],
+      "@accountable/frontend/type-auth": [
+        "libs/frontend/type-auth/src/index.ts"
+      ],
+      "@accountable/frontend/type-invoicing": [
+        "libs/frontend/type-invoicing/src/index.ts"
+      ],
+      "@accountable/frontend/type-reporting": [
+        "libs/frontend/type-reporting/src/index.ts"
+      ],
+      "@accountable/frontend/ui-design-system": [
+        "libs/frontend/ui-design-system/src/index.ts"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
